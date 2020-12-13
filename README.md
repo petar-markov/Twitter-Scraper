@@ -8,6 +8,8 @@ This version is mostly focused on the data extract and not the overall formattin
 
 Requirements needed for the script are stored in the "requirements.txt" and these can be installed easily with "pip install -r requirements.txt" - most of the times with no issues I believe.
 
+For a quick test usage it is recommended to install and start this through a started python virtual env.
+
 
 ## Script usage
 
