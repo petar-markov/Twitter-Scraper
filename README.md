@@ -1,6 +1,17 @@
 # Twitter-Scraper
 
-# Twitter-Scraper
+# IMPORTANT
+## In this version, the function that is extracting the information from the Twitter API does not pick the whole JSON file. The information that is there for extraction is quite a lot, so we really do not want to get it at mass for now. With this version, we take the only the:
+
+Username
+
+Timestamp of the main tweet/re-tweet/comment
+
+Tweet/Re-tweet/Comment
+
+Bool marker to show if the data is from re-tweet or comment
+
+Options to define whether or not to extract at all re-tweets and comments
 
 ## A simple Twitter Scraper that is created to be used with the default Twitter API (v1) for retrieving information only and nothing else.
 
