@@ -32,8 +32,6 @@ def make_auth(api_key, api_secret, access_token, access_token_secret):
     
 def build_url(**params):
     """
-    No base URL specified as we will implement a functionality to get tweets and nothing else.
-
     Input username and then all the needed additional parameters.
     List of avaialble parameters:
     user_id, screen_name, since_id, count, max_id, trim_user, exclude_replies, include_rts, tweet_mode
